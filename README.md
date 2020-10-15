@@ -61,3 +61,9 @@ val appDatabase = AppDatabase.getInstance(applicationContext)
 appDatabase.sampleTableDao().insertAll(SampleTable(0, "data baru"))
 AppDatabase.copyFile(appDatabase)
 ```
+
+---
+
+```
+Copyright 2020 M. Fadli Zein
+```
