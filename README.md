@@ -1,6 +1,8 @@
 # ExternalRoomReadDbFromFileKT
  part 5, setelah zip dibuat , buat instanse untuk room
 
+Using [Room](https://developer.android.com/training/data-storage/room?hl=id) as your local database.
+
 #### Code for AppDataBase
 ```kotlin
 @Database(entities = [SampleTable::class], version = 3)
